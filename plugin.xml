@@ -42,16 +42,16 @@
             <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
             <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-            <!-- OPTIONAL xtremepush settings-->
+            OPTIONAL xtremepush settings
             <!-- REQUIRED for Geo-location & iBeacon -->
-            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+            <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
 
             <!-- REQUIRED for iBeacon -->
-            <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-            <uses-feature
+            <!-- <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> -->
+            <!-- <uses-feature
                     android:name="android.hardware.bluetooth_le"
-                    android:required="false" />
+                    android:required="false" /> -->
         </config-file>
         
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
